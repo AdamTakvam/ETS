@@ -1,0 +1,23 @@
+# Ignore everything
+*
+
+# Allow versioning of everything in user/
+!*/
+!*.md
+!*.yaml
+!*.yml
+!.htaccess
+
+# Allow all nested content
+!pages/**
+!config/**
+!data/**
+!themes/**
+!plugins/**
+
+# Ignore Grav-generated junk (in case plugins dump stuff here)
+cache/
+logs/
+tmp/
+backup/
+assets/
